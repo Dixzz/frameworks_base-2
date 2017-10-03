@@ -43,7 +43,6 @@ import com.android.systemui.statusbar.policy.DarkIconDispatcher.DarkReceiver;
 public class NetworkTraffic extends TextView implements StatusIconDisplayable {
 
     public static final String SLOT = "networktraffic";
-public class NetworkTraffic extends TextView implements DarkReceiver {
 
     private static final int INTERVAL = 1500; //ms
     private static final int KB = 1024;
@@ -96,7 +95,6 @@ public class NetworkTraffic extends TextView implements DarkReceiver {
             if (shouldHide(rxData, txData, timeDelta)) {
                 setText("");
                 mTrafficVisible = false;
-                setVisibility(View.GONE);
             } else {
                 // Get information for uplink ready so the line return can be added
                 String output = formatOutput(timeDelta, txData, symbol);
@@ -112,9 +110,7 @@ public class NetworkTraffic extends TextView implements DarkReceiver {
                 }
                 mTrafficVisible = true;
             }
-            updateVisibility();
-                setVisibility(View.VISIBLE);
-            }
+//            updateVisibility();
 
             // Post delayed message to refresh in ~1000ms
             totalRxBytes = newTotalRxBytes;
@@ -261,7 +257,6 @@ public class NetworkTraffic extends TextView implements DarkReceiver {
         } else {
             clearHandlerCallbacks();
         }
-        setVisibility(View.GONE);
     }
 
     private void setMode() {
