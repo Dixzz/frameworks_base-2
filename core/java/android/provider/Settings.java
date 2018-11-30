@@ -4476,12 +4476,9 @@ public final class Settings {
             PRIVATE_SETTINGS.add(KEY_CAMERA_LONG_PRESS_ACTION);
             PRIVATE_SETTINGS.add(KEY_CAMERA_DOUBLE_TAP_ACTION);
             PRIVATE_SETTINGS.add(OMNI_USE_BOTTOM_GESTURE_NAVIGATION);
-<<<<<<< HEAD
             PRIVATE_SETTINGS.add(OMNI_SHOW_BATTERY_IMAGE);
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_STATE);
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);
-=======
->>>>>>> 5a6a4689fe0... [1/2] base: implement OP like navigation gestures
         }
 
         /**

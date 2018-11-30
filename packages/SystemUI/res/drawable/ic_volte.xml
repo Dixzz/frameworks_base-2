@@ -1,40 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2018, The Linux Foundation. All rights reserved.
- *                2018, Citrus-CAF
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are
- * met:
- *  * Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- *  * Redistributions in binary form must reproduce the above
- *    copyright notice, this list of conditions and the following
- *    disclaimer in the documentation and/or other materials provided
- *    with the distribution.
- *  * Neither the name of The Linux Foundation nor the names of its
- *    contributors may be used to endorse or promote products derived
- *    from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
- * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
- * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
- * ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
- * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
- * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
- * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
- * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
- * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
--->
-
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:viewportWidth="17"
-    android:viewportHeight="17"
-    android:width="17dp"
-    android:height="17dp">
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi"
+    android:viewportWidth="30.57"
+    auto:viewportWidth="30.57"
+    android:viewportHeight="24"
+    auto:viewportHeight="24"
+    android:width="30.57dp"
+    auto:width="30.57dp"
+    android:height="24dp"
+    auto:height="24dp">
+    <group
+        android:translateX="1.7"
+        auto:translateX="1.7"
+        android:translateY="18.68"
+        auto:translateY="18.68">
         <path
-            android:pathData="M14.5 1C15.328 1 16 1.672 16 2.5l0 12c0 0.828 -0.672 1.5 -1.5 1.5l-12 0C1.672 16 1 15.328 1 14.5L1 2.5C1 1.672 1.672 1 2.5 1l12 0zm-6.904 11.13l0 -7.26 -0.736 0 0 3.071 -2.995 0 0 -3.071 -0.736 0 0 7.26 0.736 0 0 -3.386 2.995 0 0 3.386 0.736 0zm3.224 0c0.96 0 1.708 -0.31 2.245 -0.931 0.538 -0.62 0.806 -1.543 0.806 -2.77 0 -0.773 -0.117 -1.424 -0.351 -1.952C13.285 5.948 12.951 5.548 12.517 5.277 12.084 5.006 11.575 4.87 10.991 4.87l-1.8 0 0 7.26 1.629 0zm0.065 -6.477c0.704 0 1.248 0.225 1.632 0.676 0.385 0.451 0.577 1.161 0.577 2.13 0 1.925 -0.791 2.888 -2.373 2.888l-0.793 0 0 -5.694 0.957 0z"
-            android:fillType="evenOdd"
-            android:fillColor="#ffffff" />
+            android:pathData="M6.7089844 -7.2705078L4.0625 0 2.7734375 0 0.12695312 -7.2705078l1.03515628 0 2.2802734 6.39648436 2.2802734 -6.39648436 0.9863282 0z"
+            auto:pathData="M6.7089844 -7.2705078L4.0625 0 2.7734375 0 0.12695312 -7.2705078l1.03515628 0 2.2802734 6.39648436 2.2802734 -6.39648436 0.9863282 0z"
+            android:fillColor="#ffffff"
+            auto:fillColor="#ffffff" />
+    </group>
+    <path
+        android:pathData="M17.83 8.47l-2.3 -1.37 2.4 -0.91 -1.74 -2.33 5.18 -1.74 3.07 2.12 -4.07 1 2 1.08 -4.13 1.41 1.81 0.87 -4.05 2.49 -1 0z"
+        auto:pathData="M17.83 8.47l-2.3 -1.37 2.4 -0.91 -1.74 -2.33 5.18 -1.74 3.07 2.12 -4.07 1 2 1.08 -4.13 1.41 1.81 0.87 -4.05 2.49 -1 0z"
+        android:fillColor="#ffffff"
+        auto:fillColor="#ffffff" />
+    <path
+        android:pathData="M12.58 16.27A2.0899999 2.4100001 0 0 1 10.49 18.680001 2.0899999 2.4100001 0 0 1 8.3999999 16.27 2.0899999 2.4100001 0 0 1 10.49 13.86a2.0899999 2.4100001 0 0 1 2.09 2.41z"
+        auto:pathData="M12.58 16.27A2.0899999 2.4100001 0 0 1 10.49 18.680001 2.0899999 2.4100001 0 0 1 8.3999999 16.27 2.0899999 2.4100001 0 0 1 10.49 13.86a2.0899999 2.4100001 0 0 1 2.09 2.41z"
+        android:strokeWidth="0.25"
+        auto:strokeWidth="0.25"
+        android:strokeColor="#ffffff"
+        auto:strokeColor="#ffffff"
+        android:strokeMiterLimit="10"
+        auto:strokeMiterLimit="10" />
+    <path
+        android:pathData="M11.05 16.32a0.44 0.54000002 0 0 1 -0.44 0.54 0.44 0.54000002 0 0 1 -0.44 -0.54 0.44 0.54000002 0 0 1 0.44 -0.54 0.44 0.54000002 0 0 1 0.44 0.54z"
+        auto:pathData="M11.05 16.32a0.44 0.54000002 0 0 1 -0.44 0.54 0.44 0.54000002 0 0 1 -0.44 -0.54 0.44 0.54000002 0 0 1 0.44 -0.54 0.44 0.54000002 0 0 1 0.44 0.54z"
+        android:strokeWidth="0.5"
+        auto:strokeWidth="0.5"
+        android:fillColor="#ffffff"
+        auto:fillColor="#ffffff"
+        android:strokeColor="#ffffff"
+        auto:strokeColor="#ffffff"
+        android:strokeMiterLimit="10"
+        auto:strokeMiterLimit="10" />
+    <path
+        android:pathData="M10.64 16.13"
+        auto:pathData="M10.64 16.13"
+        android:strokeWidth="0.25"
+        auto:strokeWidth="0.25"
+        android:strokeColor="#ffffff"
+        auto:strokeColor="#ffffff"
+        android:strokeMiterLimit="10"
+        auto:strokeMiterLimit="10" />
+    <path
+        android:pathData="M13.58 11.09l0 9 16.16 0 0 -9zM19 19.5c0 0.12 -0.08 0.17 -0.16 0.17 -0.24 0 -0.59 0 -1.05 -0.05 -0.46 -0.05 -0.81 -0.05 -1 -0.05l-1 0 -1 0c-0.07 0 -0.11 -0.05 -0.11 -0.15 0 -0.41 0 -1.05 0 -1.89 0 -0.84 0 -1.48 0 -1.9 0 -0.42 0 -1.11 0 -2 0 -0.89 -0.05 -1.56 -0.05 -2 0 -0.09 0 -0.13 0.12 -0.13a1.34 1.34 0 0 1 0.25 0l0.53 0a1.49 1.49 0 0 1 0.26 0c0.08 0 0.12 0 0.12 0.11 0 0.41 0 1 0 1.84 0 0.84 0 1.43 0 1.84l0 1.82a3.71 3.71 0 0 0 0.09 1.32 23.8 23.8 0 0 0 2.62 -0.11l0.21 0 0.22 0c0.07 0 0.1 0 0.1 0.11A6 6 0 0 1 19 19.5Zm4.9 -6.73l-1.66 -0.07c0 1.17 0 2.11 0 2.81 0 0.44 0 1.11 0 2 0 0.89 0 1.55 0 2 0 0.08 -0.05 0.12 -0.14 0.12l-0.26 0 -0.26 0 -0.26 0 -0.26 0q-0.12 0 -0.12 -0.15c0 -0.43 0 -1.09 0.05 -2 0.05 -0.91 0 -1.54 0 -2 0 -0.68 0 -1.62 -0.05 -2.81 -0.81 0.06 -1.4 0.09 -1.78 0.09 0 0 -0.05 0 -0.05 -0.06a1.37 1.37 0 0 1 0 -0.3q0 -0.25 0.06 -0.3c0 -0.13 0 -0.32 0.07 -0.56a0.08 0.08 0 0 1 0.08 -0.07l0.05 0c1.11 0.09 1.84 0.13 2.2 0.13 0.36 0 0.82 0 1.53 -0.09l0.61 -0.06a0.13 0.13 0 0 1 0.14 0.11 3.34 3.34 0 0 0 0 0.55c0 0 0 0.13 0 0.24 0 0.11 0 0.18 0 0.24 0 0.06 0.15 0.18 0.09 0.18zM29 18.72A2.41 2.41 0 0 0 29 19c0 0.14 0 0.34 -0.07 0.61"
+        auto:pathData="M13.58 11.09l0 9 16.16 0 0 -9zM19 19.5c0 0.12 -0.08 0.17 -0.16 0.17 -0.24 0 -0.59 0 -1.05 -0.05 -0.46 -0.05 -0.81 -0.05 -1 -0.05l-1 0 -1 0c-0.07 0 -0.11 -0.05 -0.11 -0.15 0 -0.41 0 -1.05 0 -1.89 0 -0.84 0 -1.48 0 -1.9 0 -0.42 0 -1.11 0 -2 0 -0.89 -0.05 -1.56 -0.05 -2 0 -0.09 0 -0.13 0.12 -0.13a1.34 1.34 0 0 1 0.25 0l0.53 0a1.49 1.49 0 0 1 0.26 0c0.08 0 0.12 0 0.12 0.11 0 0.41 0 1 0 1.84 0 0.84 0 1.43 0 1.84l0 1.82a3.71 3.71 0 0 0 0.09 1.32 23.8 23.8 0 0 0 2.62 -0.11l0.21 0 0.22 0c0.07 0 0.1 0 0.1 0.11A6 6 0 0 1 19 19.5Zm4.9 -6.73l-1.66 -0.07c0 1.17 0 2.11 0 2.81 0 0.44 0 1.11 0 2 0 0.89 0 1.55 0 2 0 0.08 -0.05 0.12 -0.14 0.12l-0.26 0 -0.26 0 -0.26 0 -0.26 0q-0.12 0 -0.12 -0.15c0 -0.43 0 -1.09 0.05 -2 0.05 -0.91 0 -1.54 0 -2 0 -0.68 0 -1.62 -0.05 -2.81 -0.81 0.06 -1.4 0.09 -1.78 0.09 0 0 -0.05 0 -0.05 -0.06a1.37 1.37 0 0 1 0 -0.3q0 -0.25 0.06 -0.3c0 -0.13 0 -0.32 0.07 -0.56a0.08 0.08 0 0 1 0.08 -0.07l0.05 0c1.11 0.09 1.84 0.13 2.2 0.13 0.36 0 0.82 0 1.53 -0.09l0.61 -0.06a0.13 0.13 0 0 1 0.14 0.11 3.34 3.34 0 0 0 0 0.55c0 0 0 0.13 0 0.24 0 0.11 0 0.18 0 0.24 0 0.06 0.15 0.18 0.09 0.18zM29 18.72A2.41 2.41 0 0 0 29 19c0 0.14 0 0.34 -0.07 0.61"
+        android:fillColor="#ffffff"
+        auto:fillColor="#ffffff" />
 </vector>
