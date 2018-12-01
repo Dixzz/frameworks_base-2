@@ -33,7 +33,10 @@ public final class PhoneStatusBarTransitions extends BarTransitions {
     private final float mIconAlphaWhenOpaque;
 
     private View mLeftSide, mStatusIcons, mBattery, mClock;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4df1b73ff96... fw_base: Status network traffic [1/2]
     private Animator mCurrentAnimation;
 
     public PhoneStatusBarTransitions(PhoneStatusBarView view) {
